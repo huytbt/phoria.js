@@ -1,0 +1,19 @@
+{
+  "name": "phoria.js",
+  "version": "1.0.0",
+  "description": "phoria.js\r =========",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huytbt/phoria.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huytbt/phoria.js/issues"
+  },
+  "homepage": "https://github.com/huytbt/phoria.js#readme"
+}
