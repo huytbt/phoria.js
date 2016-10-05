@@ -780,7 +780,19 @@
             }
          }
          ctx.restore();
-      }
+      },
+
+      renderImage: function renderImage(image, x, y, width, height, opacity)
+      {
+        opacity = opacity || 1;
+        var scaleW = this.canvas.width / width;
+        var scaleH = this.canvas.height / height;
+        var scale = Math.min(scaleW, scaleH);
+        this.ctx.save();
+        this.ctx.globalAlpha = opacity;
+        this.ctx.drawImage(image, x, y, width * scale, height * scale);
+        this.ctx.restore();
+      },
    });
 })();
 
