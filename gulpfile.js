@@ -9,7 +9,8 @@ var config = {
     './scripts/phoria-util.js',
     './scripts/phoria-entity.js',
     './scripts/phoria-scene.js',
-    './scripts/phoria-renderer.js'
+    './scripts/phoria-renderer.js',
+    './scripts/exports.js'
   ],
   outputFile: 'index.js',
   outputDir: './dist/'
